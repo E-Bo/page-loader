@@ -1,16 +1,17 @@
 # page-loader
 extend <a href="https://github.com/joaopereirawd/fakeLoader.js">fakeLoader.js</a>
 
-
-#usage
+<h1>usage</h1>
+<pre>
 <code>
-$('#selector').pageloader();<br/>
-...<br/>
-  success:function(){<br/>
-    ...<br/>
-    $('#selector').data('pageloader').hidePageLoader();<br/>
-    ...<br/>
-  }<br/>
-...<br/>
+  $('#selector').pageloader();
+  ...
+    success: function(){
+      ...
+      $('#selector').data('pageloader').hidePageLoader();
+      ...
+    }
+  ...
 </code>
+</pre>
 
